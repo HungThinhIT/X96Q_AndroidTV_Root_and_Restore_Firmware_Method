@@ -15,6 +15,7 @@
 - Install latest Magisk Manager (now is 22.1)
 - Copy file `magisk_patched-22100_XSRyq.img` to your usb
 - Plug your USB at port 2 (near CARD)
+- Plug A-to-A cable to your computer
 - Open Command Prompt
 - Run command `adb shell` then run `su`
 - After that inject patched-boot with command `dd if=/sdcard/magisk_patched-22100_XSRyq.img of=/dev/block/by-name/boot`
